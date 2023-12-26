@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: aquamarine;
+    width: 20%;
+    height: 100vh;
+}
+#cont{
+    list-style-type: none;
+    background-color: crimson;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-size: 20px;
+}
+a:hover{
+    background-color: chartreuse;
+    color: black;
+}
+/* menu{------Below li drop down------}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: cadetblue;
+    position: relative;
+    display: none;
+} */
+
+/* right side dropdown */
+#Drop:hover #menu{
+    display: block;
+
+}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: orangered;
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+#Drop{
+    position: relative;
+}
+#menu1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darksalmon;
+    position: relative;
+    display: none;
+}
+#Drop1:hover #menu1{
+    display: block;
+}
+#menu1{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: darkseagreen;
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+#Drop1{
+    position: relative;
+}
